@@ -146,7 +146,7 @@ section p {
 .bg-pastel-2 { background-color: #1435b3 }
 
 /* Light blue section background: h1 headings and p text paragraphs */
-.bg-pastel-1 h1 { background-image: linear-gradient(#0575e6, #1435b3) } 
+.bg-pastel-1 h1 { color: #1435b3 }
 .bg-pastel-1 p  { color: #222 }
 
 /* Dark blue section background: h1 headings and p text paragraphs */
