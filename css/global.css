@@ -18,6 +18,7 @@ input, button, textarea, select { font: inherit }
 @media (max-width: 767px) { body { padding: 12% 8% } }
 
 body { 
+    background-color: darkslateblue;
     text-align: center;
     font-family: sans-serif;
 }
@@ -49,4 +50,9 @@ p {
     font-size: 20px;
     margin-bottom: 16px;
 }
+
+a.site:link {color:yellow;}
+a.site:visited {color:orangered;}
+a.site:hover {color:orange;}
+
 
