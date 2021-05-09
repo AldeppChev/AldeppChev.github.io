@@ -64,6 +64,9 @@
 
        function addNumbers() {
             /* Place the two user-entered numbers in variables */
+             /* Convert string inputs to numeric variables */
+            firstNum = parseFloat(firstNum);
+            secondNum = parseFloat(secondNum);
             let firstNum  = document.getElementById("firstNum").value;
             let secondNum = document.getElementById("secondNum").value;
             /* Put sum of the two numbers in a new variable */
